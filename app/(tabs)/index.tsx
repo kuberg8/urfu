@@ -6,9 +6,9 @@ import { Text, View } from '@/components/Themed'
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Работа с Realm на React Native</Text>
+      <Text style={styles.title}>Работа с SQLite на React Native</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="https://github.com/realm/realm-js" text={text} />
+      <EditScreenInfo path="https://docs.expo.dev/versions/latest/sdk/sqlite/" text={text} />
     </View>
   )
 }
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
 })
 
 const text =
-  'Realm - кроссплатформенная объектная СУБД с открытым исходным кодом для Android и iOS.\nReact Native — кроссплатформенный фреймворк с открытым исходным кодом для разработки нативных мобильных приложений на JavaScript и TypeScript.'
+  'SQLite — это быстрая и легкая встраиваемая однофайловая СУБД на языке C, которая не имеет сервера и позволяет хранить всю базу локально на одном устройстве.'
